@@ -24,7 +24,6 @@ const tagsRepository = {
     });
   },
 
-  //
   create: (data: TagDto) => {
     return Tag.create({
       data: {
